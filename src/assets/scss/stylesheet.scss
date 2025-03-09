@@ -1,0 +1,28 @@
+@use './sidebar';
+@use './typography';
+@use './reset';
+@use './footer';
+@use './contact';
+@use './themes';
+@use './notfound';
+@use './global';
+
+// rest css
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+     
+    .body-content{
+       width: calc(100vw - 218px);
+       position: relative;
+       left: 200px;
+       min-height: calc(100vh - 0px);
+       display: flex;
+       flex-direction: column;
+    }  
+    .body-content-inner{
+        padding: 15px 50px;
+    }
+}

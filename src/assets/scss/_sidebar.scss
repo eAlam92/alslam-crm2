@@ -1,0 +1,34 @@
+.skiptranslate{
+    iframe{
+
+        display: none;
+    }
+    .VIpgJd-ZVi9od-aZ2wEe-OiiCO,
+    .VIpgJd-ZVi9od-l4eHX-hSRGPd{
+        display: none !important;
+    }
+    
+}
+.sidebar{
+    min-height: 100%;
+    width: 200px;
+    height: calc(100vh);
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(10 65 146) !important;
+    .sidebar-nav{
+        ul{
+            padding-top: 15px;
+            li{
+                a{
+                    padding: 5px 0;
+                    display: block;
+                    text-decoration: none;
+                    color: var(--bs-white);
+                }
+            }
+        }
+    }
+}
